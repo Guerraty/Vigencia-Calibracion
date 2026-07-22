@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b2a4a">
+  <title>Vigencia de Calibración</title>
+  <style>
+    :root {
+      --azul:#0b2a4a; --azul2:#154d7c; --fondo:#f3f6f8; --borde:#dce3e8;
+      --texto:#20252a; --gris:#66717c; --verde:#15803d; --amarillo:#b7791f; --rojo:#b91c1c;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; min-height:100vh; padding:24px 14px 42px;
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+      background:linear-gradient(180deg,var(--azul) 0 205px,var(--fondo) 205px); color:var(--texto);
+    }
+    .app{max-width:660px;margin:auto}
+    header{text-align:center;color:#fff;margin-bottom:18px}
+    .logo{width:105px;height:105px;border-radius:50%;object-fit:cover;background:#fff;padding:5px}
+    h1{margin:10px 0 4px;font-size:clamp(1.6rem,6vw,2.15rem)}
+    header p{margin:0;opacity:.92;line-height:1.4}
+    .card{
+      background:#fff;border:1px solid var(--borde);border-radius:20px;
+      box-shadow:0 14px 35px rgba(17,35,52,.12);padding:20px;margin-bottom:16px
+    }
+    .titulo{text-align:center;margin-bottom:17px}
+    .titulo small{display:block;color:var(--gris);font-weight:800;letter-spacing:.11em;text-transform:uppercase}
+    .titulo h2{color:var(--azul);font-size:1.55rem;margin:6px 0}
+    .asset-badge{display:inline-block;background:#eaf2f8;color:var(--azul);padding:7px 12px;border-radius:999px;font-weight:800}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:11px}
+    .campo{border:1px solid var(--borde);border-radius:14px;padding:12px;background:#fbfcfd}
+    .campo.full{grid-column:1/-1}
+    .campo span{display:block;color:var(--gris);font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.05em}
+    .campo strong{display:block;margin-top:5px;overflow-wrap:anywhere}
+    .contador{text-align:center}
+    .contador h3{margin:0 0 14px;color:var(--azul)}
+    .unidades{display:grid;grid-template-columns:repeat(4,1fr);gap:7px}
+    .unidad{border:1px solid var(--borde);border-radius:14px;padding:13px 3px;background:#fff}
+    .unidad b{display:block;font-size:clamp(1.35rem,6vw,2rem);color:var(--azul)}
+    .unidad small{font-size:.67rem;color:var(--gris);font-weight:800;text-transform:uppercase}
+    .progress-info{display:flex;justify-content:space-between;margin:18px 0 7px;color:var(--gris);font-size:.82rem}
+    .progress{height:11px;border-radius:999px;background:#e6eaed;overflow:hidden}
+    #barra{height:100%;width:0;border-radius:inherit;transition:width .4s ease}
+    .estado{margin-top:17px;padding:16px;border-radius:15px;font-weight:900;letter-spacing:.025em}
+    .estado small{display:block;margin-top:5px;font-weight:600;letter-spacing:0}
+    .vigente{background:#dcfce7;color:var(--verde)}
+    .proximo{background:#fef3c7;color:var(--amarillo)}
+    .critico,.vencido{background:#fee2e2;color:var(--rojo)}
+    .error{background:#fff3cd;color:#664d03}
+    footer{text-align:center;color:#6b7580;font-size:.77rem;line-height:1.5}
+    @media(max-width:430px){
+      .grid{grid-template-columns:1fr}.campo.full{grid-column:auto}
+      .card{padding:16px}.unidades{gap:5px}.unidad{padding:11px 1px}
+    }
+  </style>
+</head>
+<body>
+<main class="app">
+  <header>
+    <img class="logo" src="logo.png" alt="Emblema Grupo de Mantenimiento N.º 53"
+         onerror="this.style.display='none'">
+    <h1>Vigencia de Calibración</h1>
+    <p>Pañol de Herramientas (PUPH)<br>Grupo de Mantenimiento N.º 53</p>
+  </header>
+
+  <section class="card">
+    <div class="titulo">
+      <small>Herramienta controlada</small>
+      <h2 id="nombre">Cargando…</h2>
+      <div id="assetPrincipal" class="asset-badge"></div>
+    </div>
+    <div class="grid">
+      <div class="campo"><span>P/N</span><strong id="pn"></strong></div>
+      <div class="campo"><span>S/N</span><strong id="sn"></strong></div>
+      <div class="campo full"><span>NSN</span><strong id="nsn"></strong></div>
+      <div class="campo"><span>PPM</span><strong id="ppm"></strong></div>
+      <div class="campo"><span>Intervalo</span><strong id="intervalo"></strong></div>
+      <div class="campo"><span>Última calibración</span><strong id="ultima"></strong></div>
+      <div class="campo"><span>Próxima calibración</span><strong id="proxima"></strong></div>
+    </div>
+  </section>
+
+  <section class="card contador">
+    <h3 id="tituloContador">Estado de calibración</h3>
+    <div class="unidades">
+      <div class="unidad"><b id="dias">000</b><small>Días</small></div>
+      <div class="unidad"><b id="horas">00</b><small>Horas</small></div>
+      <div class="unidad"><b id="minutos">00</b><small>Minutos</small></div>
+      <div class="unidad"><b id="segundos">00</b><small>Segundos</small></div>
+    </div>
+    <div class="progress-info"><span>Vigencia restante</span><strong id="porcentaje">0 %</strong></div>
+    <div class="progress"><div id="barra"></div></div>
+    <div id="estado" class="estado">Cargando estado…</div>
+  </section>
+
+  <footer>
+    Sistema “Vigencia de Calibración” · Versión 1.1<br>
+    PUPH · Grupo de Mantenimiento N.º 53
+  </footer>
+</main>
+
+<script src="herramientas.js"></script>
+<script>
+  const $ = id => document.getElementById(id);
+  const params = new URLSearchParams(location.search);
+  const assetBuscado = (params.get("asset") || HERRAMIENTAS[0].asset).trim().toUpperCase();
+  const herramienta = HERRAMIENTAS.find(h => h.asset.toUpperCase() === assetBuscado);
+
+  const fechaLocal = iso => {
+    const [a,m,d] = iso.split("-");
+    return `${d}/${m}/${a}`;
+  };
+
+  if (!herramienta) {
+    $("nombre").textContent = "Herramienta no encontrada";
+    $("assetPrincipal").textContent = assetBuscado;
+    $("estado").className = "estado error";
+    $("estado").textContent = "No existe una herramienta registrada con este Asset.";
+    throw new Error("Asset no registrado: " + assetBuscado);
+  }
+
+  $("nombre").textContent = herramienta.nombre;
+  $("assetPrincipal").textContent = "Asset: " + herramienta.asset;
+  $("pn").textContent = herramienta.pn;
+  $("sn").textContent = herramienta.sn;
+  $("nsn").textContent = herramienta.nsn;
+  $("ppm").textContent = herramienta.ppm;
+  $("intervalo").textContent = herramienta.intervaloDias + " días";
+  $("ultima").textContent = fechaLocal(herramienta.ultimaCalibracion);
+  $("proxima").textContent = fechaLocal(herramienta.proximaCalibracion);
+  document.title = `${herramienta.asset} · Vigencia de Calibración`;
+
+  const inicio = new Date(herramienta.ultimaCalibracion + "T00:00:00");
+  const vencimiento = new Date(herramienta.proximaCalibracion + "T23:59:59");
+  const duracionTotal = Math.max(1, vencimiento - inicio);
+
+  function actualizar() {
+    const restante = vencimiento - new Date();
+    const absoluto = Math.abs(restante);
+    const dias = Math.floor(absoluto / 86400000);
+    const horas = Math.floor((absoluto % 86400000) / 3600000);
+    const minutos = Math.floor((absoluto % 3600000) / 60000);
+    const segundos = Math.floor((absoluto % 60000) / 1000);
+
+    $("dias").textContent = String(dias).padStart(3,"0");
+    $("horas").textContent = String(horas).padStart(2,"0");
+    $("minutos").textContent = String(minutos).padStart(2,"0");
+    $("segundos").textContent = String(segundos).padStart(2,"0");
+
+    const porcentaje = restante > 0 ? Math.max(0, Math.min(100, restante / duracionTotal * 100)) : 0;
+    $("porcentaje").textContent = Math.round(porcentaje) + " %";
+    $("barra").style.width = porcentaje + "%";
+
+    const estado = $("estado");
+    estado.className = "estado";
+
+    if (restante <= 0) {
+      $("tituloContador").textContent = "Tiempo transcurrido desde el vencimiento";
+      $("barra").style.background = "#b91c1c";
+      estado.classList.add("vencido");
+      estado.innerHTML = "🔴 CALIBRACIÓN VENCIDA<small>Vencida hace " + dias +
+        " día(s). Esta herramienta no debe utilizarse hasta ser recalibrada.</small>";
+    } else if (dias < 7) {
+      $("tituloContador").textContent = "Tiempo restante para su vencimiento";
+      $("barra").style.background = "#b91c1c";
+      estado.classList.add("critico");
+      estado.innerHTML = "🔴 VENCE PRONTO<small>Gestionar calibración con carácter prioritario.</small>";
+    } else if (dias <= 30) {
+      $("tituloContador").textContent = "Tiempo restante para su vencimiento";
+      $("barra").style.background = "#b7791f";
+      estado.classList.add("proximo");
+      estado.innerHTML = "🟡 PRÓXIMA A VENCER<small>Programar calibración.</small>";
+    } else {
+      $("tituloContador").textContent = "Tiempo restante para su vencimiento";
+      $("barra").style.background = "#15803d";
+      estado.classList.add("vigente");
+      estado.innerHTML = "🟢 EQUIPO APTO PARA USO<small>La calibración se encuentra vigente.</small>";
+    }
+  }
+
+  actualizar();
+  setInterval(actualizar,1000);
+</script>
+</body>
+</html>
