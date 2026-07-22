@@ -1,0 +1,15 @@
+VERSIÓN CON IDENTIFICACIÓN INDIVIDUAL POR ASSET
+
+1. En GitHub, reemplace index.html y herramientas.js por los incluidos aquí.
+2. Mantenga logo.png en la raíz del repositorio. Este ZIP también lo incluye.
+3. Confirme que los tres archivos queden directamente en la raíz:
+   - index.html
+   - herramientas.js
+   - logo.png
+4. Pulse "Commit changes" y espere la actualización de GitHub Pages.
+
+ENLACE INDIVIDUAL DE LA PRIMERA HERRAMIENTA:
+https://guerraty.github.io/Vigencia-Calibracion/?asset=557195933GSE
+
+Este enlace debe utilizarse para generar el QR exclusivo de la Llave de torque.
+La dirección principal sin ?asset= continuará mostrando la primera herramienta como respaldo.

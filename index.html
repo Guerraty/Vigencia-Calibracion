@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b2a4a">
+  <title>Vigencia de Calibración</title>
+  <style>
+    :root{--azul:#0b2a4a;--azul2:#164f83;--fondo:#eef3f7;--texto:#1f2933;--gris:#66727e;--borde:#d8e1e8;--verde:#15803d;--amarillo:#a16207;--rojo:#b91c1c}
+    *{box-sizing:border-box} body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;background:linear-gradient(180deg,var(--azul) 0 245px,var(--fondo) 245px);color:var(--texto);min-height:100vh;padding:22px 14px 40px}.app{max-width:680px;margin:auto}.header{text-align:center;color:#fff;margin-bottom:18px}.logo{width:112px;height:112px;object-fit:contain;border-radius:50%;background:#fff;padding:4px;box-shadow:0 10px 28px rgba(0,0,0,.25)}h1{margin:10px 0 4px;font-size:clamp(1.65rem,6vw,2.25rem)}.sub{opacity:.93;line-height:1.35}.card{background:#fff;border:1px solid var(--borde);border-radius:20px;box-shadow:0 14px 35px rgba(17,35,52,.12);padding:20px;margin-bottom:16px}.eyebrow{text-align:center;color:var(--gris);font-size:.76rem;font-weight:800;letter-spacing:.12em}.tool{text-align:center;color:var(--azul);font-size:1.6rem;margin:6px 0 18px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:11px}.field{border:1px solid var(--borde);border-radius:14px;padding:13px;background:#fbfdff}.field.full{grid-column:1/-1}.field span{display:block;color:var(--azul2);font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;margin-bottom:5px}.field strong{font-size:1rem;word-break:break-word}.dates{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin-top:11px}.datebox{border:1px solid var(--borde);border-radius:14px;padding:14px;text-align:center}.datebox span{display:block;color:var(--azul2);font-size:.72rem;font-weight:800;text-transform:uppercase}.datebox strong{display:block;font-size:1.2rem;margin-top:5px}.count-title{text-align:center;color:var(--azul);font-weight:800;margin-bottom:14px}.countdown{display:grid;grid-template-columns:repeat(4,1fr);gap:7px}.unit{border:1px solid var(--borde);border-radius:14px;text-align:center;padding:13px 4px}.unit b{display:block;color:var(--azul);font-size:1.55rem}.unit small{color:var(--gris);font-size:.66rem;text-transform:uppercase}.progress-head{display:flex;justify-content:space-between;margin:17px 0 7px;color:var(--gris);font-size:.82rem}.progress{height:11px;background:#e5e9ed;border-radius:99px;overflow:hidden}.bar{height:100%;width:0;background:var(--verde);transition:.4s}.status{margin-top:17px;border-radius:14px;padding:15px;text-align:center;font-weight:900}.vigente{background:#dcfce7;color:var(--verde)}.proximo{background:#fef3c7;color:var(--amarillo)}.critico{background:#fee2e2;color:var(--rojo)}.vencido{background:#e5e7eb;color:#111827}.error{display:none;background:#fff;border-radius:18px;padding:24px;text-align:center;box-shadow:0 14px 35px rgba(17,35,52,.12)}footer{text-align:center;color:#6b7580;font-size:.76rem;line-height:1.5;padding-top:4px}@media(max-width:460px){.grid,.dates{grid-template-columns:1fr}.field.full{grid-column:auto}.card{padding:16px}.unit{padding:11px 2px}.unit b{font-size:1.3rem}.unit small{font-size:.58rem}}
+  </style>
+</head>
+<body>
+<main class="app">
+  <header class="header">
+    <img class="logo" src="logo.png" alt="Emblema Grupo de Mantenimiento N.º 53">
+    <h1>Vigencia de Calibración</h1>
+    <div class="sub">Pañol de Herramientas (PUPH)<br>Grupo de Mantenimiento N.º 53</div>
+  </header>
+
+  <div id="contenido">
+    <section class="card">
+      <div class="eyebrow">Herramienta controlada</div>
+      <h2 id="nombre" class="tool"></h2>
+      <div class="grid">
+        <div class="field full"><span>Asset</span><strong id="asset"></strong></div>
+        <div class="field"><span>N.º de Parte (P/N)</span><strong id="pn"></strong></div>
+        <div class="field"><span>N.º de Serie (S/N)</span><strong id="sn"></strong></div>
+        <div class="field full"><span>NSN</span><strong id="nsn"></strong></div>
+        <div class="field"><span>PPM</span><strong id="ppm"></strong></div>
+        <div class="field"><span>Intervalo</span><strong id="intervalo"></strong></div>
+      </div>
+      <div class="dates">
+        <div class="datebox"><span>Última calibración</span><strong id="ultima"></strong></div>
+        <div class="datebox"><span>Próxima calibración</span><strong id="proxima"></strong></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="count-title">Tiempo restante para su vencimiento</div>
+      <div class="countdown" aria-live="polite">
+        <div class="unit"><b id="dias">000</b><small>Días</small></div>
+        <div class="unit"><b id="horas">00</b><small>Horas</small></div>
+        <div class="unit"><b id="minutos">00</b><small>Minutos</small></div>
+        <div class="unit"><b id="segundos">00</b><small>Segundos</small></div>
+      </div>
+      <div class="progress-head"><span>Vigencia restante</span><strong id="porcentaje">0 %</strong></div>
+      <div class="progress"><div id="barra" class="bar"></div></div>
+      <div id="estado" class="status vigente">Cargando…</div>
+    </section>
+  </div>
+
+  <section id="error" class="error">
+    <h2>Herramienta no encontrada</h2>
+    <p>El Asset indicado en el código QR no está registrado.</p>
+    <strong id="assetError"></strong>
+  </section>
+
+  <footer>Sistema de Control de Vigencia de Calibraciones · PUPH<br>Grupo de Mantenimiento N.º 53 · Fuerza Aérea de Chile</footer>
+</main>
+<script src="herramientas.js"></script>
+<script>
+  const $ = id => document.getElementById(id);
+  const params = new URLSearchParams(location.search);
+  const assetSolicitado = (params.get('asset') || '').trim().toUpperCase();
+  const herramienta = assetSolicitado
+    ? HERRAMIENTAS.find(h => h.asset.toUpperCase() === assetSolicitado)
+    : HERRAMIENTAS[0];
+
+  const fechaCL = iso => {
+    const [a,m,d] = iso.split('-');
+    return `${d}/${m}/${a}`;
+  };
+
+  if (!herramienta) {
+    $('contenido').style.display = 'none';
+    $('error').style.display = 'block';
+    $('assetError').textContent = assetSolicitado || 'Sin Asset';
+  } else {
+    $('nombre').textContent = herramienta.nombre;
+    $('asset').textContent = herramienta.asset;
+    $('pn').textContent = herramienta.pn;
+    $('sn').textContent = herramienta.sn;
+    $('nsn').textContent = herramienta.nsn;
+    $('ppm').textContent = herramienta.ppm;
+    $('intervalo').textContent = herramienta.intervaloDias + ' días';
+    $('ultima').textContent = fechaCL(herramienta.ultimaCalibracion);
+    $('proxima').textContent = fechaCL(herramienta.proximaCalibracion);
+    document.title = `${herramienta.nombre} · ${herramienta.asset}`;
+
+    const inicio = new Date(herramienta.ultimaCalibracion + 'T00:00:00');
+    const vencimiento = new Date(herramienta.proximaCalibracion + 'T23:59:59');
+    const total = Math.max(1, vencimiento - inicio);
+
+    function actualizar(){
+      const restante = vencimiento - new Date();
+      const positivo = Math.max(0, restante);
+      const dias = Math.floor(positivo / 86400000);
+      const horas = Math.floor((positivo % 86400000) / 3600000);
+      const minutos = Math.floor((positivo % 3600000) / 60000);
+      const segundos = Math.floor((positivo % 60000) / 1000);
+      $('dias').textContent = String(dias).padStart(3,'0');
+      $('horas').textContent = String(horas).padStart(2,'0');
+      $('minutos').textContent = String(minutos).padStart(2,'0');
+      $('segundos').textContent = String(segundos).padStart(2,'0');
+      const pct = Math.max(0, Math.min(100, restante / total * 100));
+      $('porcentaje').textContent = Math.round(pct) + ' %';
+      $('barra').style.width = pct + '%';
+      const estado = $('estado');
+      estado.className = 'status';
+      if(restante <= 0){estado.classList.add('vencido');estado.textContent='⚫ CALIBRACIÓN VENCIDA — NO UTILIZAR';$('barra').style.background='#20252a'}
+      else if(dias < 7){estado.classList.add('critico');estado.textContent='🔴 VENCE PRONTO — GESTIONAR CALIBRACIÓN';$('barra').style.background='#b91c1c'}
+      else if(dias <= 30){estado.classList.add('proximo');estado.textContent='🟡 PRÓXIMO A VENCER';$('barra').style.background='#a16207'}
+      else{estado.classList.add('vigente');estado.textContent='🟢 EQUIPO APTO PARA USO';$('barra').style.background='#15803d'}
+    }
+    actualizar(); setInterval(actualizar,1000);
+  }
+</script>
+</body>
+</html>
