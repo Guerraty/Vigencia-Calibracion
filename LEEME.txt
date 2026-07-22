@@ -1,0 +1,29 @@
+VIGENCIA DE CALIBRACIÓN — PROTOTIPO 1.0
+
+Archivos:
+- index.html: página principal
+- logo.jpg: emblema orientado y recortado
+
+Cómo probarlo:
+1. Descomprima el archivo ZIP.
+2. Abra index.html con Chrome, Safari o Edge.
+3. El contador se actualiza cada segundo.
+
+Datos configurados:
+Herramienta: Llave de Torque
+Asset: 557195933GSE
+Número de parte: TEC175FU
+Número de serie: 5933
+NSN: 5120-01-134-4362
+PPM: C-PU-001
+Intervalo: 180 días
+Última calibración: 24/05/2026
+Próxima calibración: 20/11/2026
+
+Supuesto provisional:
+La hora de vencimiento se fijó al final del día, 23:59:59, hora de Chile.
+Antes de publicarlo se debe confirmar si el vencimiento institucional ocurre
+al inicio, al final del día o a una hora específica.
+
+Para que el QR funcione desde cualquier celular, la carpeta debe publicarse
+en un servicio web. Después de obtener el enlace público se genera el QR definitivo.
