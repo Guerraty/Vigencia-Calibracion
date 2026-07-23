@@ -1,0 +1,9 @@
+INSTRUCCIONES DE PUBLICACIÓN - FASE 1 C-PU-001
+
+1. Abra la carpeta SUBIR_A_GITHUB.
+2. Seleccione TODO su contenido.
+3. Súbalo a la raíz del repositorio Vigencia-Calibracion.
+4. En la raíz deben quedar index.html, herramientas.js, logo.png, README.md y la carpeta Certificados.
+5. Espere la actualización de GitHub Pages y pruebe la página.
+
+Los 154 QR están en PROYECTO_COMPLETO/QR-C-PU-001 y no es necesario subirlos a GitHub.
