@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "ppm": "C-PU-001",
+  "herramientas_excel": 152,
+  "herramientas_manuales": 2,
+  "herramientas_total": 154,
+  "assets_duplicados": [],
+  "campos_obligatorios_vacios": 0,
+  "ppm_distintos": [],
+  "certificados_asociados": [
+    "454022874GSE",
+    "658841081GSE",
+    "658842156GSE",
+    "658847617GSE",
+    "658847623GSE",
+    "658847637GSE"
+  ],
+  "certificados_total": 6,
+  "qr_total": 154,
+  "intervalo_dias": 180,
+  "url_base": "https://guerraty.github.io/Vigencia-Calibracion/"
+}
