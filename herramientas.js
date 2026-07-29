@@ -18,7 +18,7 @@ const HERRAMIENTAS = [
     "sn": "03880000918",
     "nsn": "5120-01-355-1735",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-02-28",
+    "ultimaCalibracion": "2026-03-02",
     "proximaCalibracion": "2026-08-27"
   },
   {
