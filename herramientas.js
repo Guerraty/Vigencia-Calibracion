@@ -305,7 +305,7 @@ const HERRAMIENTAS = [
     "nsn": "5120-00-720-1975",
     "intervaloDias": 180,
     "ultimaCalibracion": "2026-06-09",
-    "proximaCalibracion": "2026-12-09"
+    "proximaCalibracion": ""
   },
   {
     "nombre": "Llave De Torque",
