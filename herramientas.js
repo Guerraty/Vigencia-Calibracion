@@ -321,7 +321,7 @@ const HERRAMIENTAS = [
     "intervaloDias": 180,
     "ultimaCalibracion": "2026-05-21",
     "proximaCalibracion": "2026-11-17",
-    "rango": "0-150 LBS/IN"
+    "rango": "30-150 LBS/IN"
   },
   {
     "nombre": "Llave De Torque",
