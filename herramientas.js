@@ -1485,7 +1485,7 @@ const HERRAMIENTAS = [
     "intervaloDias": 180,
     "ultimaCalibracion": "2026-05-26",
     "proximaCalibracion": "2026-11-22",
-    "rango": "0-440 LB/IN"
+    "rango": "50-440 LB/IN"
   },
   {
     "nombre": "Manómetro",
