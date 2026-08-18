@@ -319,9 +319,9 @@ const HERRAMIENTAS = [
     "sn": "C08878",
     "nsn": "5120-DE-003-5612",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-05-21",
+    "ultimaCalibracion": "2026-05-25",
     "proximaCalibracion": "2026-11-17",
-    "rango": "0-150 LBS/IN"
+    "rango": "30-150 LBS/IN"
   },
   {
     "nombre": "Llave De Torque",
