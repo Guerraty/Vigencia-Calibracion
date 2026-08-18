@@ -19,7 +19,7 @@ const HERRAMIENTAS = [
     "sn": "03880000918",
     "nsn": "5120-01-355-1735",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-02-28",
+    "ultimaCalibracion": "2026-03-02",
     "proximaCalibracion": "2026-08-27",
     "rango": "150-1000 LBS/IN"
   },
@@ -31,7 +31,7 @@ const HERRAMIENTAS = [
     "sn": "6-921-036-01-020",
     "nsn": "5120-DE-004-7658",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-05-24",
+    "ultimaCalibracion": "2026-05-28",
     "proximaCalibracion": "2026-11-20",
     "rango": "5-20 M/KG"
   },
@@ -55,7 +55,7 @@ const HERRAMIENTAS = [
     "sn": "47",
     "nsn": "5120-01-430-6876",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-04-21",
+    "ultimaCalibracion": "2026-04-24",
     "proximaCalibracion": "2026-10-18",
     "rango": "2-36 LB/IN"
   },
@@ -79,7 +79,7 @@ const HERRAMIENTAS = [
     "sn": "M001",
     "nsn": "5120-01-394-4256",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-05-26",
+    "ultimaCalibracion": "2026-05-30",
     "proximaCalibracion": "2026-11-22",
     "rango": "4,03 KG/M"
   },
@@ -91,7 +91,7 @@ const HERRAMIENTAS = [
     "sn": "N15400",
     "nsn": "5120-DE-003-5575",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-05-25",
+    "ultimaCalibracion": "2026-05-29",
     "proximaCalibracion": "2026-11-21",
     "rango": "2 KG/M"
   },
@@ -103,7 +103,7 @@ const HERRAMIENTAS = [
     "sn": "096002",
     "nsn": "5120-00-022-9786",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-05-25",
+    "ultimaCalibracion": "2026-05-29",
     "proximaCalibracion": "2026-11-21",
     "rango": "1,2 KG/M"
   },
@@ -115,7 +115,7 @@ const HERRAMIENTAS = [
     "sn": "061942",
     "nsn": "5120-00-022-9786",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-05-25",
+    "ultimaCalibracion": "2026-05-29",
     "proximaCalibracion": "2026-11-21",
     "rango": "1 KG/M"
   },
@@ -331,7 +331,7 @@ const HERRAMIENTAS = [
     "sn": "7445343",
     "nsn": "5120-00-720-1975",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2025-12-12",
+    "ultimaCalibracion": "2026-06-12",
     "proximaCalibracion": "2026-06-10",
     "rango": "0-100 LB/IN"
   },
@@ -343,7 +343,7 @@ const HERRAMIENTAS = [
     "sn": "7445229",
     "nsn": "5120-00-720-1975",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-06-09",
+    "ultimaCalibracion": "2026-06-12",
     "proximaCalibracion": "2026-12-06",
     "rango": "0-100 LB/IN"
   },
@@ -763,7 +763,7 @@ const HERRAMIENTAS = [
     "sn": "7427",
     "nsn": "5120-01-355-1745",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-06-09",
+    "ultimaCalibracion": "2026-06-12",
     "proximaCalibracion": "2026-12-06",
     "rango": "0-600 LBS/IN"
   },
@@ -799,7 +799,7 @@ const HERRAMIENTAS = [
     "sn": "ETA-003",
     "nsn": "6685-DE-004-3877",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-06-05",
+    "ultimaCalibracion": "2026-06-08",
     "proximaCalibracion": "2026-12-02",
     "rango": "0-5000 PSI"
   },
@@ -943,9 +943,9 @@ const HERRAMIENTAS = [
     "sn": "GM-TH-022",
     "nsn": "6685-DE-004-3858",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-04-21",
+    "ultimaCalibracion": "2026-04-24",
     "proximaCalibracion": "2026-10-18",
-    "rango": "0-3000 PSI"
+    "rango": "0-3200 PSI"
   },
   {
     "nombre": "Destornillador De Torque",
@@ -1039,7 +1039,7 @@ const HERRAMIENTAS = [
     "sn": "N103641",
     "nsn": "5120-14-459-7320",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2024-10-14",
+    "ultimaCalibracion": "2026-04-28",
     "proximaCalibracion": "2025-04-12",
     "rango": "2-10 N/m"
   },
@@ -1135,7 +1135,7 @@ const HERRAMIENTAS = [
     "sn": "0916023291",
     "nsn": "5120-01-339-0369",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-04-25",
+    "ultimaCalibracion": "2026-04-28",
     "proximaCalibracion": "2026-10-22",
     "rango": "200-1000 IN/LB"
   },
@@ -1291,7 +1291,7 @@ const HERRAMIENTAS = [
     "sn": "410220022",
     "nsn": "6685-DE-004-3858",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-06-06",
+    "ultimaCalibracion": "2026-06-09",
     "proximaCalibracion": "2026-12-03",
     "rango": "0-4600 PSI"
   },
@@ -1363,7 +1363,7 @@ const HERRAMIENTAS = [
     "sn": "G53-202003",
     "nsn": "6685-DE-004-3886",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-06-01",
+    "ultimaCalibracion": "2026-06-04",
     "proximaCalibracion": "2026-11-28",
     "rango": "0-600 PSI"
   },
@@ -1375,7 +1375,7 @@ const HERRAMIENTAS = [
     "sn": "216238501",
     "nsn": "5120-XX-006-9653",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-03-04",
+    "ultimaCalibracion": "2026-08-05",
     "proximaCalibracion": "2026-08-31",
     "rango": "180-880 LB/IN"
   },
@@ -1483,9 +1483,9 @@ const HERRAMIENTAS = [
     "sn": "216238510",
     "nsn": "5120-XX-006-9654",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-05-26",
+    "ultimaCalibracion": "2026-05-30",
     "proximaCalibracion": "2026-11-22",
-    "rango": "0-440 LB/IN"
+    "rango": "50-440 LB/IN"
   },
   {
     "nombre": "Manómetro",
@@ -1495,7 +1495,7 @@ const HERRAMIENTAS = [
     "sn": "Z0818A",
     "nsn": "6685-DE-000-6665",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-06-05",
+    "ultimaCalibracion": "2026-06-08",
     "proximaCalibracion": "2026-12-02",
     "rango": "0-1000 PSI"
   },
@@ -1543,7 +1543,7 @@ const HERRAMIENTAS = [
     "sn": "GM-TI-020",
     "nsn": "6685-DE-004-7652",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-06-06",
+    "ultimaCalibracion": "2026-06-09",
     "proximaCalibracion": "2026-12-03",
     "rango": "0-150 PSI"
   },
@@ -1555,7 +1555,7 @@ const HERRAMIENTAS = [
     "sn": "G53-2023-003",
     "nsn": "6685-01-648-6679",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2025-09-29",
+    "ultimaCalibracion": "2026-04-27",
     "proximaCalibracion": "2026-03-28",
     "rango": "0-230 PSI"
   },
@@ -1603,7 +1603,7 @@ const HERRAMIENTAS = [
     "sn": "G53-2023-006",
     "nsn": "6685-DE-004-3858",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-06-06",
+    "ultimaCalibracion": "2026-06-09",
     "proximaCalibracion": "2026-12-03",
     "rango": "0-230 PSI"
   },
@@ -1675,7 +1675,7 @@ const HERRAMIENTAS = [
     "sn": "GM-ETA-084",
     "nsn": "6685-DE-004-7556",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-06-01",
+    "ultimaCalibracion": "2026-06-04",
     "proximaCalibracion": "2026-11-28",
     "rango": "0-160 PSI"
   },
@@ -1747,9 +1747,9 @@ const HERRAMIENTAS = [
     "sn": "12076",
     "nsn": "6685-14-438-0027",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-03-29",
+    "ultimaCalibracion": "2026-04-02",
     "proximaCalibracion": "2026-09-25",
-    "rango": "0-200 PSI"
+    "rango": "0-230 PSI"
   },
   {
     "nombre": "Tensiometro C-8",
@@ -1837,7 +1837,7 @@ const HERRAMIENTAS = [
     "sn": "5933",
     "nsn": "5120-01-134-4362",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-05-24",
+    "ultimaCalibracion": "2026-05-28",
     "proximaCalibracion": "2026-11-20",
     "rango": "0-175 LB/IN"
   },
