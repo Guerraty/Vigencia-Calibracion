@@ -1267,7 +1267,7 @@ const HERRAMIENTAS = [
     "sn": "G53-2021-6000",
     "nsn": "6685-DE-006-5480",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-06-05",
+    "ultimaCalibracion": "2026-06-08",
     "proximaCalibracion": "2026-12-02",
     "rango": "0-6000 PSI"
   },
@@ -1639,7 +1639,7 @@ const HERRAMIENTAS = [
     "sn": "GMTE2010-3225",
     "nsn": "6685-01-249-2445",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-05-15",
+    "ultimaCalibracion": "2026-05-19",
     "proximaCalibracion": "2026-11-11",
     "rango": "0-6000 PSI"
   },
