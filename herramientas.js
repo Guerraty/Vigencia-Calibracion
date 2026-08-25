@@ -1545,7 +1545,7 @@ const HERRAMIENTAS = [
     "intervaloDias": 180,
     "ultimaCalibracion": "2026-06-09",
     "proximaCalibracion": "2026-12-06",
-    "rango": "0-150 PSI"
+    "rango": "0-100 PSI"
   },
   {
     "nombre": "Manómetro De Oxígeno",
