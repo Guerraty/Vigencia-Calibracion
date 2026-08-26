@@ -3410,7 +3410,7 @@ const HERRAMIENTAS = [
     "sn": "GAM-LM-007",
     "nsn": "5210-17-103-7248",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2021-07-13",
+    "ultimaCalibracion": "2026-08-03",
     "proximaCalibracion": "2022-07-13",
     "rango": "150 mm"
   },
@@ -3651,7 +3651,7 @@ const HERRAMIENTAS = [
     "sn": "GM-EAP-005",
     "nsn": "5210-DE-004-4023",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2024-05-20",
+    "ultimaCalibracion": "2026-08-03",
     "proximaCalibracion": "2025-05-20",
     "rango": "200 mm"
   },
@@ -3663,7 +3663,7 @@ const HERRAMIENTAS = [
     "sn": "C1804191057",
     "nsn": "5120-LO-000-2172",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-06-16",
+    "ultimaCalibracion": "2026-08-03",
     "proximaCalibracion": "2026-06-16",
     "rango": "150 mm"
   },
