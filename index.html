@@ -148,7 +148,19 @@
   $("ppm").textContent = herramienta.ppm;
   $("intervalo").textContent = herramienta.intervaloDias + " días";
   $("ultima").textContent = fechaLocal(herramienta.ultimaCalibracion);
-  $("proxima").textContent = fechaLocal(herramienta.proximaCalibracion);
+
+const inicio = new Date(herramienta.ultimaCalibracion + "T00:00:00");
+const vencimientoBase = new Date(inicio);
+vencimientoBase.setDate(vencimientoBase.getDate() + herramienta.intervaloDias);
+
+const proximaCalculada = [
+  vencimientoBase.getFullYear(),
+  String(vencimientoBase.getMonth() + 1).padStart(2, "0"),
+  String(vencimientoBase.getDate()).padStart(2, "0")
+].join("-");
+
+$("proxima").textContent = fechaLocal(proximaCalculada);
+  
   document.title = `${herramienta.asset} · Vigencia de Calibración`;
 
   if (herramienta.certificado) {
@@ -156,10 +168,10 @@
     $("certNoDisponible").style.display = "none";
     $("certLink").href = herramienta.certificado;
   }
-
-  const inicio = new Date(herramienta.ultimaCalibracion + "T00:00:00");
-  const vencimiento = new Date(herramienta.proximaCalibracion + "T23:59:59");
-  const duracionTotal = Math.max(1, vencimiento - inicio);
+const vencimiento = new Date(proximaCalculada + "T23:59:59");
+const duracionTotal = Math.max(1, vencimiento - inicio);
+  
+  
 
   function actualizar() {
     const restante = vencimiento - new Date();
