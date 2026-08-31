@@ -343,7 +343,7 @@ const HERRAMIENTAS = [
     "sn": "7445229",
     "nsn": "5120-00-720-1975",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-06-12",
+    "ultimaCalibracion": "2026-08-31",
     "proximaCalibracion": "2026-12-09",
     "rango": "0-100 LB/IN"
   },
