@@ -679,9 +679,9 @@ const HERRAMIENTAS = [
     "sn": "F 010408",
     "nsn": "5120-14-539-8090",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-04-25",
+    "ultimaCalibracion": "2026-04-28",
     "proximaCalibracion": "2026-10-22",
-    "rango": "0-25 N/m"
+    "rango": "5-25 N/m"
   },
   {
     "nombre": "Manómetro Digital",
