@@ -5333,7 +5333,7 @@ const HERRAMIENTAS = [
     "sn": "5394A",
     "nsn": "6670-00-148-9395",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-06-06",
+    "ultimaCalibracion": "2026-07-13",
     "proximaCalibracion": "2026-06-06",
     "rango": "0 / 50000 LBS",
     "certificado": "Certificados/97424394AGSE.pdf"
