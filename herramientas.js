@@ -5896,5 +5896,17 @@ const HERRAMIENTAS = [
     "proximaCalibracion": "2028-01-26",
     "rango": "450 Hz - 406.050 000 MHz",
     "certificado": "Certificados/L539110385.pdf"
-  }
+  },
+  {
+    "nombre": "Manómetro De Oxígeno",
+    "asset": "357860073GSE",
+    "ppm": "C-PU-001",
+    "pn": "PFQ808R11R1FT",
+    "sn": "GM-TE-20073",
+    "nsn": "6685-DE-004-3884",
+    "intervaloDias": 180,
+    "ultimaCalibracion": "2026-08-24",
+    "proximaCalibracion": "2025-03-31",
+    "rango": "0-300 PSI"
+ }
 ];
