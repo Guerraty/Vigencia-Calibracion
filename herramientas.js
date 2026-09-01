@@ -1183,7 +1183,7 @@ const HERRAMIENTAS = [
     "sn": "GM-LM-201601",
     "nsn": "6685-DE-004-7253",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2024-10-02",
+    "ultimaCalibracion": "2026-08-24",
     "proximaCalibracion": "2025-03-31",
     "rango": "0-4500 PSI"
   },
