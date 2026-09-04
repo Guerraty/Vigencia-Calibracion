@@ -1015,7 +1015,7 @@ const HERRAMIENTAS = [
     "sn": "GM-TB-201703",
     "nsn": "5120-01-641-8189",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2025-08-18",
+    "ultimaCalibracion": "2026-08-10",
     "proximaCalibracion": "2026-02-14",
     "rango": "7 N/m"
   },
@@ -1027,7 +1027,7 @@ const HERRAMIENTAS = [
     "sn": "GM-TB-201704",
     "nsn": "5120-01-641-8189",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2025-08-11",
+    "ultimaCalibracion": "2026-08-10",
     "proximaCalibracion": "2026-02-07",
     "rango": "7 N/m"
   },
