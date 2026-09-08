@@ -559,7 +559,7 @@ const HERRAMIENTAS = [
     "sn": "GM-TH-017",
     "nsn": "6685-DE-004-3858",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-02-26",
+    "ultimaCalibracion": "2026-08-28",
     "proximaCalibracion": "2026-08-25",
     "rango": "0-4600 PSI"
   },
