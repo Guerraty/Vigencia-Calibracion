@@ -835,9 +835,9 @@ const HERRAMIENTAS = [
     "sn": "GMTE2010-302",
     "nsn": "6685-01-249-2445",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-02-26",
+    "ultimaCalibracion": "2026-08-28",
     "proximaCalibracion": "2026-08-25",
-    "rango": "30-300 PSI"
+    "rango": "0-6000 PSI"
   },
   {
     "nombre": "Manómetro",
