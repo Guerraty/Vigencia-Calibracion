@@ -1651,7 +1651,7 @@ const HERRAMIENTAS = [
     "sn": "GM-SA-059",
     "nsn": "6685-01-249-2445",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2025-05-12",
+    "ultimaCalibracion": "2026-04-27",
     "proximaCalibracion": "2025-11-08",
     "rango": "0-6000 PSI"
   },
