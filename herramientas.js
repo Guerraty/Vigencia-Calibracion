@@ -7,7 +7,7 @@ const HERRAMIENTAS = [
     "sn": "S010011",
     "nsn": "5120-14-462-3825",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-03-10",
+    "ultimaCalibracion": "2026-09-07",
     "proximaCalibracion": "2026-09-06",
     "rango": "40-200 LB/FT"
   },
@@ -19,7 +19,7 @@ const HERRAMIENTAS = [
     "sn": "03880000918",
     "nsn": "5120-01-355-1735",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-03-02",
+    "ultimaCalibracion": "2026-09-07",
     "proximaCalibracion": "2026-08-29",
     "rango": "150-1000 LBS/IN"
   },
@@ -859,7 +859,7 @@ const HERRAMIENTAS = [
     "sn": "GM 2010-303",
     "nsn": "6685-DE-004-7657",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-05-15",
+    "ultimaCalibracion": "2026-05-19",
     "proximaCalibracion": "2026-11-11",
     "rango": "0-6000 PSI"
   },
@@ -1279,7 +1279,7 @@ const HERRAMIENTAS = [
     "sn": "GMTE2010-303",
     "nsn": "6685-DE-006-5479",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-05-14",
+    "ultimaCalibracion": "2026-05-18",
     "proximaCalibracion": "2026-11-10",
     "rango": "0-300 PSI"
   },
@@ -1315,7 +1315,7 @@ const HERRAMIENTAS = [
     "sn": "G53-SE-001",
     "nsn": "6685-DE-004-3858",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-02-26",
+    "ultimaCalibracion": "2026-08-28",
     "proximaCalibracion": "2026-08-25",
     "rango": "0-4500 PSI"
   },
