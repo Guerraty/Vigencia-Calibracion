@@ -1811,7 +1811,7 @@ const HERRAMIENTAS = [
     "sn": "7637",
     "nsn": "6635-01-455-6940",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2025-06-04",
+    "ultimaCalibracion": "2026-06-03",
     "proximaCalibracion": "2025-12-01",
     "certificado": "Certificados/658847637GSE.pdf",
     "rango": "10-200 LBS"
