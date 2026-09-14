@@ -871,7 +871,7 @@ const HERRAMIENTAS = [
     "sn": "GMTE-2016001",
     "nsn": "4920-01-507-2834",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2023-08-22",
+    "ultimaCalibracion": "2026-08-26",
     "proximaCalibracion": "2024-02-18",
     "rango": "0-300 PSI"
   },
