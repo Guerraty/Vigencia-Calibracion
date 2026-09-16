@@ -2948,7 +2948,7 @@ const HERRAMIENTAS = [
     "sn": "532",
     "nsn": "5120-01-577-7899",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-06-04",
+    "ultimaCalibracion": "2026-07-02",
     "proximaCalibracion": "2026-06-04",
     "rango": "19.9898 mm",
     "certificado": "Certificados/0BT640532GSE.pdf"
