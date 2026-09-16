@@ -1687,7 +1687,7 @@ const HERRAMIENTAS = [
     "sn": "GM-TI-015",
     "nsn": "6685-DE-004-7653",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-02-09",
+    "ultimaCalibracion": "2026-08-28",
     "proximaCalibracion": "2026-08-08",
     "rango": "0-100 PSI"
   },
