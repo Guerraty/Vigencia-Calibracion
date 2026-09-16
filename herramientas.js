@@ -1063,7 +1063,7 @@ const HERRAMIENTAS = [
     "sn": "EAP-002",
     "nsn": "6685-DE-003-1472",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-06-01",
+    "ultimaCalibracion": "2026-06-04",
     "proximaCalibracion": "2026-11-28",
     "rango": "0-400 PSI"
   },
