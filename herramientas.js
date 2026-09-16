@@ -703,7 +703,7 @@ const HERRAMIENTAS = [
     "sn": "SAO-003",
     "nsn": "6685-DE-004-7656",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2025-06-26",
+    "ultimaCalibracion": "2026-08-24",
     "proximaCalibracion": "2025-12-23",
     "rango": "0-5800 PSI"
   },
@@ -3943,7 +3943,7 @@ const HERRAMIENTAS = [
     "sn": "051109",
     "nsn": "5210-DE-004-3675",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-06-05",
+    "ultimaCalibracion": "2026-06-23",
     "proximaCalibracion": "2026-06-05",
     "rango": "0 / 3 mm",
     "certificado": "Certificados/219381109GSE.pdf"
@@ -3995,7 +3995,7 @@ const HERRAMIENTAS = [
     "sn": "G53-TI-006",
     "nsn": "5210-00-900-2367",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-06-24",
+    "ultimaCalibracion": "2026-06-23",
     "proximaCalibracion": "2026-06-24",
     "rango": "0  / 0.5 IN",
     "certificado": "Certificados/5716306GSE.pdf"
