@@ -3398,7 +3398,7 @@ const HERRAMIENTAS = [
     "sn": "X030126",
     "nsn": "5210-14-486-2193",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-07-31",
+    "ultimaCalibracion": "2026-09-08",
     "proximaCalibracion": "2026-07-31",
     "rango": "150 mm"
   },
@@ -3579,7 +3579,7 @@ const HERRAMIENTAS = [
     "sn": "0011922",
     "nsn": "5210-DE-003-5572",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-07-23",
+    "ultimaCalibracion": "2026-09-08",
     "proximaCalibracion": "2026-07-23",
     "rango": "150 mm"
   },
@@ -3723,7 +3723,7 @@ const HERRAMIENTAS = [
     "sn": "14034",
     "nsn": "5210-14-486-2193",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-08-27",
+    "ultimaCalibracion": "2026-09-08",
     "proximaCalibracion": "2026-08-27",
     "rango": "150 mm"
   },
