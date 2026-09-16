@@ -3615,7 +3615,7 @@ const HERRAMIENTAS = [
     "sn": "FA-0943",
     "nsn": "5210-66-154-4080",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-07-25",
+    "ultimaCalibracion": "2026-09-08",
     "proximaCalibracion": "2026-07-25",
     "rango": "150 mm"
   },
