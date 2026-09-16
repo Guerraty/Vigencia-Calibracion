@@ -3699,7 +3699,7 @@ const HERRAMIENTAS = [
     "sn": "C1808070387",
     "nsn": "5120-LO-002-2172",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-01-29",
+    "ultimaCalibracion": "2026-09-08",
     "proximaCalibracion": "2026-01-29",
     "rango": "150 mm"
   },
@@ -3711,7 +3711,7 @@ const HERRAMIENTAS = [
     "sn": "C1808070331",
     "nsn": "5120-LO-000-2172",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2024-03-21",
+    "ultimaCalibracion": "2026-09-08",
     "proximaCalibracion": "2025-03-21",
     "rango": "150 mm"
   },
