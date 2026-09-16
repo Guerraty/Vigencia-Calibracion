@@ -5920,5 +5920,5 @@ const HERRAMIENTAS = [
     "ultimaCalibracion": "2026-08-26",
     "proximaCalibracion": "2025-03-31",
     "rango": "0-150 PSI"
- {  
-];
+ },  
+ ];
