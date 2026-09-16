@@ -631,7 +631,7 @@ const HERRAMIENTAS = [
     "sn": "GM-SAO-306",
     "nsn": "6685-01-577-4500",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-02-06",
+    "ultimaCalibracion": "2026-08-24",
     "proximaCalibracion": "2026-08-05",
     "rango": "0-30 PSI"
   },
