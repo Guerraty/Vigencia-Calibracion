@@ -540,14 +540,14 @@ const HERRAMIENTAS = [
     "rango": "0-400 PSI"
   },
   {
-    "nombre": "Manómetro",
+    "nombre": "Manómetro De Oxígeno",
     "asset": "61049H008GSE",
     "ppm": "C-PU-001",
     "pn": "111-11",
     "sn": "GAM-TH-008",
     "nsn": "6685-DE-004-3858",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-06-05",
+    "ultimaCalibracion": "2026-06-08",
     "proximaCalibracion": "2026-12-02",
     "rango": "0-4500 PSI"
   },
