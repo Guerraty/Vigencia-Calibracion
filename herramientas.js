@@ -2470,7 +2470,7 @@ const HERRAMIENTAS = [
     "sn": "HD3497675",
     "nsn": "6625-DE-004-7630",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2026-03-20",
+    "ultimaCalibracion": "2026-03-19",
     "proximaCalibracion": "2027-03-20",
     "rango": "1000V / 10 AMP",
     "certificado": "Certificados/012M07675SGE.pdf"
