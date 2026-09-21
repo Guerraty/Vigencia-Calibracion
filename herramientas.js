@@ -2418,7 +2418,7 @@ const HERRAMIENTAS = [
     "sn": "71690616",
     "nsn": "6625-99-234-1754",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2024-11-18",
+    "ultimaCalibracion": "2025-11-18",
     "proximaCalibracion": "2025-11-18",
     "rango": "600V / 10 AMP",
     "certificado": "Certificados/K60220616GSE.pdf"
