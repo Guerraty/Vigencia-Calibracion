@@ -2743,7 +2743,7 @@ const HERRAMIENTAS = [
     "sn": "00792",
     "nsn": "4920-DE-002-7446",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-10-27",
+    "ultimaCalibracion": "2026-04-21",
     "proximaCalibracion": "2026-10-27",
     "rango": "20/650 KNT -   -2000/53000 FEET",
     "certificado": "Certificados/2184400792.pdf"
