@@ -3410,7 +3410,7 @@ const HERRAMIENTAS = [
     "sn": "GAM-LM-007",
     "nsn": "5210-17-103-7248",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2021-07-13",
+    "ultimaCalibracion": "2026-08-03",
     "proximaCalibracion": "2022-07-13",
     "rango": "150 mm"
   },
