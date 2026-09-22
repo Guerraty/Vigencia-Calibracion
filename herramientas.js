@@ -4840,7 +4840,7 @@ const HERRAMIENTAS = [
     "sn": "GM-TQ-003",
     "nsn": "6685-DE-004-4022",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-01-07",
+    "ultimaCalibracion": "2026-07-22",
     "proximaCalibracion": "2026-01-07",
     "rango": "0/50 °C - 0/70 %HR",
     "certificado": "Certificados/C4969003GSE.pdf"
