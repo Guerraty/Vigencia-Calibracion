@@ -1939,7 +1939,7 @@ const HERRAMIENTAS = [
     "sn": "1000685893",
     "nsn": "6625-01-610-3549",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2001-01-01",
+    "ultimaCalibracion": "2026-07-02",
     "proximaCalibracion": "2002-01-01",
     "rango": "N/A",
     "certificado": "Certificados/5119085893.pdf"
