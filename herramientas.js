@@ -560,7 +560,7 @@ const HERRAMIENTAS = [
     "nsn": "6685-DE-004-3858",
     "intervaloDias": 180,
     "ultimaCalibracion": "2026-08-28",
-    "proximaCalibracion": "2026-08-25",
+    "proximaCalibracion": "2027-02-24",
     "rango": "0-4600 PSI"
   },
   {
