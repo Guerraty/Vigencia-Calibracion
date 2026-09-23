@@ -1388,7 +1388,7 @@ const HERRAMIENTAS = [
     "nsn": "5120-XX-006-9654",
     "intervaloDias": 180,
     "ultimaCalibracion": "2026-05-30",
-    "proximaCalibracion": "2026-11-22",
+    "proximaCalibracion": "2026-11-26",
     "rango": "50-440 LB/FT"
   },
   {
