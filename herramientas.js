@@ -4060,7 +4060,7 @@ const HERRAMIENTAS = [
     "sn": "G53-TI-007",
     "nsn": "5315-00-514-4016",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2008-08-22",
+    "ultimaCalibracion": "2026-07-13",
     "proximaCalibracion": "2009-08-22",
     "rango": "0 / 0.03 IN",
     "certificado": "Certificados/07482I007GSE.pdf"
