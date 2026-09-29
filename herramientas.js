@@ -3423,7 +3423,7 @@ const HERRAMIENTAS = [
     "nsn": "5210-DE-004-7548",
     "intervaloDias": 365,
     "ultimaCalibracion": "2026-09-24",
-    "proximaCalibracion": "2026-07-24",
+    "proximaCalibracion": "2027-09-24",
     "rango": "300 mm"
   },
   {
@@ -3567,7 +3567,7 @@ const HERRAMIENTAS = [
     "nsn": "5210-25-131-1269",
     "intervaloDias": 365,
     "ultimaCalibracion": "2026-07-02",
-    "proximaCalibracion": "2026-06-25",
+    "proximaCalibracion": "2027-07-02",
     "rango": "0 / 500 mm",
     "certificado": "Certificados/S3257I004GSE.pdf"
   },
