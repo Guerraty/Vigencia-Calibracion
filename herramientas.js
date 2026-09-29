@@ -3566,7 +3566,7 @@ const HERRAMIENTAS = [
     "sn": "GAM-TI-004",
     "nsn": "5210-25-131-1269",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-06-25",
+    "ultimaCalibracion": "2026-07-02",
     "proximaCalibracion": "2026-06-25",
     "rango": "0 / 500 mm",
     "certificado": "Certificados/S3257I004GSE.pdf"
