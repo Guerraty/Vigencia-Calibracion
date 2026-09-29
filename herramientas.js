@@ -3422,7 +3422,7 @@ const HERRAMIENTAS = [
     "sn": "GAM-TI-001",
     "nsn": "5210-DE-004-7548",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-07-24",
+    "ultimaCalibracion": "2026-09-24",
     "proximaCalibracion": "2026-07-24",
     "rango": "300 mm"
   },
