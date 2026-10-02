@@ -5923,6 +5923,30 @@ const HERRAMIENTAS = [
   },
   {
     "nombre": "Manómetro De Oxígeno",
+    "asset": "35786015GSE",
+    "ppm": "C-PU-001",
+    "pn": "PFQ804R11R1FT",
+    "sn": "G53-2023-015",
+    "nsn": "6685-DE-004-3880",
+    "intervaloDias": 180,
+    "ultimaCalibracion": "2026-09-28",
+    "proximaCalibracion": "2026-08-04",
+    "rango": "0-315 BAR"
+  },
+  {
+    "nombre": "Manómetro De Oxígeno",
+    "asset": "35786016GSE",
+    "ppm": "C-PU-001",
+    "pn": "PFQ804R11R1FT",
+    "sn": "G53-2023-016",
+    "nsn": "6685-DE-004-3880",
+    "intervaloDias": 180,
+    "ultimaCalibracion": "2026-09-28",
+    "proximaCalibracion": "2026-08-04",
+    "rango": "0-315 BAR"
+  },
+  {
+    "nombre": "Manómetro De Oxígeno",
     "asset": "3578614GSE",
     "ppm": "C-PU-001",
     "pn": "PFQ804R11R1FT",
