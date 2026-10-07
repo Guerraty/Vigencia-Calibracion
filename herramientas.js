@@ -1327,7 +1327,7 @@ const HERRAMIENTAS = [
     "sn": "G53-TB-201902",
     "nsn": "6685-DE-004-3858",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-03-03",
+    "ultimaCalibracion": "2026-09-28",
     "proximaCalibracion": "2026-08-30",
     "rango": "0-4200 psi"
   },
