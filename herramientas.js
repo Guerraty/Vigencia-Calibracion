@@ -3434,7 +3434,7 @@ const HERRAMIENTAS = [
     "sn": "GAM-TI-002",
     "nsn": "5210-DE-004-7635",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-06-09",
+    "ultimaCalibracion": "2026-09-24",
     "proximaCalibracion": "2026-06-09",
     "rango": "150 mm"
   },
@@ -3482,7 +3482,7 @@ const HERRAMIENTAS = [
     "sn": "GAM-LM-001",
     "nsn": "5210-DE-006-6656",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-06-11",
+    "ultimaCalibracion": "2026-09-24",
     "proximaCalibracion": "2026-06-11",
     "rango": "150 mm"
   },
@@ -3518,7 +3518,7 @@ const HERRAMIENTAS = [
     "sn": "21030019",
     "nsn": "5210-12-345-8845",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2024-03-20",
+    "ultimaCalibracion": "2026-09-25",
     "proximaCalibracion": "2025-03-20",
     "rango": "150 mm"
   },
@@ -3530,7 +3530,7 @@ const HERRAMIENTAS = [
     "sn": "20101357",
     "nsn": "5210-12-345-8845",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-01-27",
+    "ultimaCalibracion": "2026-09-25",
     "proximaCalibracion": "2026-01-27",
     "rango": "150 mm"
   },
@@ -3542,7 +3542,7 @@ const HERRAMIENTAS = [
     "sn": "21034039",
     "nsn": "5210-12-345-8845",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-06-12",
+    "ultimaCalibracion": "2026-09-24",
     "proximaCalibracion": "2026-06-12",
     "rango": "150 mm"
   },
@@ -3675,7 +3675,7 @@ const HERRAMIENTAS = [
     "sn": "C1904140369",
     "nsn": "5120-LO-000-2172",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-06-13",
+    "ultimaCalibracion": "2026-09-24",
     "proximaCalibracion": "2026-06-13",
     "rango": "150 mm"
   },
