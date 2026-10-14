@@ -2124,6 +2124,19 @@ const HERRAMIENTAS = [
     "certificado": "Certificados/2184402199.pdf"
   },
   {
+       "nombre": "Compás Maestro Barfield Sc063",
+    "asset": "2184401405",
+    "ppm": "C-PU-002",
+    "pn": "101-01200",
+    "sn": "1405",
+    "nsn": "6625-DE-003-4809",
+    "intervaloDias": 365,
+    "ultimaCalibracion": "2010-03-09",
+    "proximaCalibracion": "2011-03-09",
+    "rango": "N/A",
+    "certificado": "Certificados/2184402199.pdf"
+  },
+  {
     "nombre": "Conductivimeter",
     "asset": "232996662GSE",
     "ppm": "C-PU-002",
@@ -4846,6 +4859,19 @@ const HERRAMIENTAS = [
   },
   {
     "nombre": "Termometro Higrometro Digital",
+    "asset": "C4969002GSE",
+    "ppm": "C-PU-002",
+    "pn": "TFA",
+    "sn": "GM-TQ-002",
+    "nsn": "6685-DE-004-4022",
+    "intervaloDias": 365,
+    "ultimaCalibracion": "2026-07-22",
+    "proximaCalibracion": "2026-01-07",
+    "rango": "0/50 °C - 0/70 %HR",
+    "certificado": "Certificados/C4969003GSE.pdf"
+  },
+  {
+     "nombre": "Termometro Higrometro Digital",
     "asset": "C4969003GSE",
     "ppm": "C-PU-002",
     "pn": "TFA",
