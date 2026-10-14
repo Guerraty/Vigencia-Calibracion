@@ -312,6 +312,18 @@ const HERRAMIENTAS = [
     "rango": "0-160 PSI"
   },
   {
+     "nombre": "Manómetro",
+    "asset": "1XU0176GSE",
+    "ppm": "C-PU-001",
+    "pn": "C4555109",
+    "sn": "A34D00476",
+    "nsn": "6685-DE-004-7554",
+    "intervaloDias": 180,
+    "ultimaCalibracion": "2026-09-10",
+    "proximaCalibracion": "2025-05-21",
+    "rango": "0-60 PSI"
+  },
+  {
     "nombre": "Llave De Torque",
     "asset": "026008878GSE",
     "ppm": "C-PU-001",
