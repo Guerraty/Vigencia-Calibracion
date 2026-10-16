@@ -6002,7 +6002,7 @@ const HERRAMIENTAS = [
     "pn": "PFQ812R1R11",
     "sn": "G53-2023-001",
     "nsn": "6685-DE-007-0505",
-    "intervaloDias": 822,
+    "intervaloDias": 823,
     "ultimaCalibracion": "2026-08-26",
     "proximaCalibracion": "2025-03-31",
     "rango": "0-150 PSI"
