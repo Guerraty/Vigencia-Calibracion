@@ -2,11 +2,11 @@ const HERRAMIENTAS = [
   {
     "nombre": "Llave De Torque",
     "asset": "557190011GSE",
-    "ppm": "C-PU-001",
+    "ppm": "En Creación",
     "pn": "S.313U",
     "sn": "S010011",
     "nsn": "5120-14-462-3825",
-    "intervaloDias": 180,
+    "intervaloDias": 270,
     "ultimaCalibracion": "2026-09-07",
     "proximaCalibracion": "2026-09-06",
     "rango": "40-200 LB/FT"
