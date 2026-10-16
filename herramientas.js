@@ -5998,11 +5998,11 @@ const HERRAMIENTAS = [
  {
     "nombre": "Manómetro De Oxígeno",
     "asset": "7186711GSE",
-    "ppm": "C-PU-001",
+    "ppm": "En Creación",
     "pn": "PFQ812R1R11",
     "sn": "G53-2023-001",
     "nsn": "6685-DE-007-0505",
-    "intervaloDias": 180,
+    "intervaloDias": 822,
     "ultimaCalibracion": "2026-08-26",
     "proximaCalibracion": "2025-03-31",
     "rango": "0-150 PSI"
