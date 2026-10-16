@@ -5954,7 +5954,7 @@ const HERRAMIENTAS = [
     "pn": "PFQ804R11R1FT",
     "sn": "G53-2023-013",
     "nsn": "6685-DE-004-3880",
-    "intervaloDias": 150,
+    "intervaloDias": 180,
     "ultimaCalibracion": "2026-06-03",
     "proximaCalibracion": "2026-08-04",
     "rango": "0-315 BAR"
