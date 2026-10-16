@@ -566,11 +566,11 @@ const HERRAMIENTAS = [
   {
     "nombre": "Manómetro De Oxígeno",
     "asset": "61049H017GSE",
-    "ppm": "C-PU-001",
+    "ppm": "En Creación",
     "pn": "111-11",
     "sn": "GM-TH-017",
     "nsn": "6685-DE-004-3858",
-    "intervaloDias": 180,
+    "intervaloDias": 1460,
     "ultimaCalibracion": "2026-08-28",
     "proximaCalibracion": "2027-02-24",
     "rango": "0-4600 PSI"
@@ -722,12 +722,12 @@ const HERRAMIENTAS = [
   {
     "nombre": "Manómetro De Oxígeno",
     "asset": "77907A025GSE",
-    "ppm": "C-PU-001",
+    "ppm": "C-PU-002",
     "pn": "25J48W3",
     "sn": "GM-SA-025",
     "nsn": "6685-DE-004-3878",
-    "intervaloDias": 180,
-    "ultimaCalibracion": "2025-11-05",
+    "intervaloDias": 365,
+    "ultimaCalibracion": "2026-08-24",
     "proximaCalibracion": "2026-05-04",
     "rango": "0-100 PSI"
   },
@@ -5938,11 +5938,11 @@ const HERRAMIENTAS = [
   {
     "nombre": "Manómetro De Oxígeno",
     "asset": "357860073GSE",
-    "ppm": "C-PU-001",
+    "ppm": "En Creación",
     "pn": "PFQ808R11R1FT",
     "sn": "GM-TE-20073",
     "nsn": "6685-DE-004-3884",
-    "intervaloDias": 180,
+    "intervaloDias": 820,
     "ultimaCalibracion": "2026-08-24",
     "proximaCalibracion": "2025-03-31",
     "rango": "0-300 PSI"
