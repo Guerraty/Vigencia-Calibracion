@@ -1063,7 +1063,7 @@ const HERRAMIENTAS = [
     "sn": "GM-TB-201705",
     "nsn": "5120-14-517-7543",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2026-03-10",
+    "ultimaCalibracion": "2026-09-07",
     "proximaCalibracion": "2026-09-06",
     "rango": "20-100 N/m"
   },
