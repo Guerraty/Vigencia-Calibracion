@@ -5540,7 +5540,7 @@ const HERRAMIENTAS = [
     "sn": "005",
     "nsn": "1730-DE-003-3714",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2026-05-08",
+    "ultimaCalibracion": "2026-04-28",
     "proximaCalibracion": "2027-05-08",
     "rango": "N/A",
     "certificado": "Certificados/0062405GSE.pdf"
