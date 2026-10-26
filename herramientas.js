@@ -3430,11 +3430,11 @@ const HERRAMIENTAS = [
   {
     "nombre": "Pie De Metro",
     "asset": "H5638M007GSE",
-    "ppm": "C-PU-002",
+    "ppm": "En Creación",
     "pn": "530-104",
     "sn": "GAM-LM-007",
     "nsn": "5210-17-103-7248",
-    "intervaloDias": 365,
+    "intervaloDias": 730,
     "ultimaCalibracion": "2026-08-03",
     "proximaCalibracion": "2022-07-13",
     "rango": "150 mm"
