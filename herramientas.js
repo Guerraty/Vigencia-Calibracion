@@ -3599,11 +3599,11 @@ const HERRAMIENTAS = [
   {
     "nombre": "Pie De Metro Digital",
     "asset": "S32571922GSE",
-    "ppm": "C-PU-002",
+    "ppm": "En Creación",
     "pn": "500-144",
     "sn": "0011922",
     "nsn": "5210-DE-003-5572",
-    "intervaloDias": 365,
+    "intervaloDias": 1095,
     "ultimaCalibracion": "2026-09-08",
     "proximaCalibracion": "2026-07-23",
     "rango": "150 mm"
