@@ -134,12 +134,12 @@ const HERRAMIENTAS = [
   {
     "nombre": "Llave De Torque",
     "asset": "176111755GSE",
-    "ppm": "C-PU-001",
+    "ppm": "En Creación",
     "pn": "6020A",
     "sn": "WXF51755",
     "nsn": "5120-01-400-0319",
-    "intervaloDias": 180,
-    "ultimaCalibracion": "2025-07-31",
+    "intervaloDias": 90,
+    "ultimaCalibracion": "2026-10-21",
     "proximaCalibracion": "2026-01-27",
     "rango": "200-600 LB/FT"
   },
