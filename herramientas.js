@@ -1771,7 +1771,7 @@ const HERRAMIENTAS = [
     "sn": "7623",
     "nsn": "6635-01-455-6940",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2025-11-24",
+    "ultimaCalibracion": "2026-07-24",
     "proximaCalibracion": "2026-05-23",
     "certificado": "Certificados/658847623GSE.pdf",
     "rango": "10-200 LBS"
@@ -1784,7 +1784,7 @@ const HERRAMIENTAS = [
     "sn": "7617",
     "nsn": "6635-01-455-6940",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2025-11-24",
+    "ultimaCalibracion": "2026-07-24",
     "proximaCalibracion": "2026-05-23",
     "certificado": "Certificados/658847617GSE.pdf",
     "rango": "10-200 LBS"
@@ -1836,7 +1836,7 @@ const HERRAMIENTAS = [
     "sn": "22874",
     "nsn": "6635-00-231-8511",
     "intervaloDias": 180,
-    "ultimaCalibracion": "2025-11-18",
+    "ultimaCalibracion": "2026-07-24",
     "proximaCalibracion": "2026-05-17",
     "certificado": "Certificados/454022874GSE.pdf",
     "rango": "30-80 LBS"
@@ -3116,7 +3116,7 @@ const HERRAMIENTAS = [
     "sn": "1155179",
     "nsn": "6685-DE-004-3680",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-07-04",
+    "ultimaCalibracion": "2026-07-07",
     "proximaCalibracion": "2026-07-04",
     "rango": "5000 PSI",
     "certificado": "Certificados/610495179GSE.pdf"
@@ -3129,7 +3129,7 @@ const HERRAMIENTAS = [
     "sn": "FW278",
     "nsn": "5210-21-911-2614",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-06-24",
+    "ultimaCalibracion": "2026-07-09",
     "proximaCalibracion": "2026-06-24",
     "rango": "0 /  0.25 IN",
     "certificado": "Certificados/00198W278GSE.pdf"
@@ -3877,7 +3877,7 @@ const HERRAMIENTAS = [
     "sn": "23634",
     "nsn": "5210-01-484-9307",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-06-25",
+    "ultimaCalibracion": "2026-07-09",
     "proximaCalibracion": "2026-06-25",
     "rango": "0 / 180°",
     "certificado": "Certificados/638483634GSE.pdf"
@@ -4033,7 +4033,7 @@ const HERRAMIENTAS = [
     "sn": "P72754",
     "nsn": "5220-00-105-2775",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2024-07-30",
+    "ultimaCalibracion": "2026-07-09",
     "proximaCalibracion": "2025-07-30",
     "rango": "0 /  0.25 IN",
     "certificado": "Certificados/752452754GSE.pdf"
@@ -4319,7 +4319,7 @@ const HERRAMIENTAS = [
     "sn": "9738",
     "nsn": "6685-DE-002-8922",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2024-10-09",
+    "ultimaCalibracion": "2026-07-08",
     "proximaCalibracion": "2025-10-09",
     "rango": "-2/ 300°C",
     "certificado": "Certificados/A40169738GSE.pdf"
@@ -4358,7 +4358,7 @@ const HERRAMIENTAS = [
     "sn": "20458",
     "nsn": "6685-14-460-5866",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2024-10-08",
+    "ultimaCalibracion": "2026-07-08",
     "proximaCalibracion": "2025-10-08",
     "rango": "-5 / 110°C",
     "certificado": "Certificados/A40160458GSE.pdf"
@@ -4657,7 +4657,7 @@ const HERRAMIENTAS = [
     "sn": "3367",
     "nsn": "6685-14-460-5866",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2022-07-11",
+    "ultimaCalibracion": "2026-07-08",
     "proximaCalibracion": "2023-07-11",
     "rango": "-5 / 110°C",
     "certificado": "Certificados/A401667GSE.pdf"
@@ -4709,7 +4709,7 @@ const HERRAMIENTAS = [
     "sn": "2811 1144",
     "nsn": "6685-DE-002-8922",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2024-07-08",
+    "ultimaCalibracion": "2026-07-08",
     "proximaCalibracion": "2025-07-08",
     "rango": "-2 / 300°C",
     "certificado": "Certificados/A401644GSE.pdf"
@@ -4722,7 +4722,7 @@ const HERRAMIENTAS = [
     "sn": "607410",
     "nsn": "6685-DE-002-8922",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2024-07-08",
+    "ultimaCalibracion": "2026-07-08",
     "proximaCalibracion": "2025-07-08",
     "rango": "-2 / 300°C",
     "certificado": "Certificados/A401610GSE.pdf"
@@ -4735,7 +4735,7 @@ const HERRAMIENTAS = [
     "sn": "283912",
     "nsn": "6685-DE-002-8925",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2024-07-08",
+    "ultimaCalibracion": "2026-07-08",
     "proximaCalibracion": "2025-07-08",
     "rango": "-2 / 400°C",
     "certificado": "Certificados/A401612GSE.pdf"
@@ -4748,7 +4748,7 @@ const HERRAMIENTAS = [
     "sn": "21",
     "nsn": "6685-DE-002-8925",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-06-25",
+    "ultimaCalibracion": "2026-07-08",
     "proximaCalibracion": "2026-06-25",
     "rango": "-5 / 400°C",
     "certificado": "Certificados/A401621GSE.pdf"
@@ -5098,7 +5098,7 @@ const HERRAMIENTAS = [
     "sn": "10671",
     "nsn": "6635-14-519-3837",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-06-24",
+    "ultimaCalibracion": "2026-08-20",
     "proximaCalibracion": "2026-06-24",
     "rango": "20 / 370 LBF-FT",
     "certificado": "Certificados/F05410671GSE.pdf"
