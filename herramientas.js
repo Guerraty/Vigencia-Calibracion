@@ -4163,7 +4163,7 @@ const HERRAMIENTAS = [
     "sn": "259349",
     "nsn": "6675-25-109-3409",
     "intervaloDias": 365,
-    "ultimaCalibracion": "2025-06-30",
+    "ultimaCalibracion": "2026-07-08",
     "proximaCalibracion": "2026-06-30",
     "rango": "0 / 100 FT",
     "certificado": "Certificados/953969349GSE.pdf"
